@@ -31,6 +31,14 @@ function App() {
     };
 
     setStudents([...students, newStudent]);
+
+    setFullName("");
+    setImage("");
+    setPhone("");
+    setEmail("");
+    setProgram("");
+    setGraduationYear(2023);
+    setGraduated(false);
   };
 
   return (
